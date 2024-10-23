@@ -108,7 +108,8 @@ function CursorCore({
       'select',
       'textarea',
       'button',
-      '.link'
+      '.link',
+      '.toggleTheme'
     ]
   }) {
     const cursorOuterRef = useRef()
