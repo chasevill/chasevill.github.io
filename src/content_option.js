@@ -23,109 +23,70 @@ const dataabout = {
               Institute of Technology`,
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
+    jobtitle: "Test Technician",
+    where: "SMTC",
+    date: "2022 - current",
+},
 ];
 
 const skills = [{
     name: "Python",
-    value: 90,
-    },
-    {
-    name: "Java",
-    value: 85,
-    },
-    {
-    name: "Javascript",
     value: 80,
-    },
-    {
+},
+{
+    name: "Java",
+    value: 90,
+},
+{
+    name: "Javascript",
+    value: 75,
+},
+{
     name: "React",
-    value: 60,
-    },
+    value: 65,
+},
+{
+    name: "Racket",
+    value: 55,
+},
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    img: "https://picsum.photos/400/?grayscale",
+    description: "A mobile app for all of ones planning needs using typescript and react native",
+    link: "https://github.com/avichaljadeja2002/omni-planner",
+},
+{
+    img: "https://picsum.photos/400/?grayscale",
+    description: "An app for managing of football statistics using mySQL and java",
+    link: "https://github.com/rhit-villencr/CS333-FSM",
+},
+{
+    img: "https://picsum.photos/400/?grayscale",
+    description: "A processor designed from the ground up with custom architecture",
+    link: "https://github.com/rhit-csse232/rhit-csse232-2223a-project-v-2223a-03",
+},
+{
+    img: "https://picsum.photos/400/?grayscale",
+    description: "A digital pantry app designed with firebase, html, js, and css",
+    link: "https://github.com/rhit-csse280/winter-2022-2023-project-repo-m4-feeleynj-villencr",
+},
+{
+    img: "https://picsum.photos/400/?grayscale",
+    description: "A custom linter for java projects capable of checking for design patterns, principles, and styles",
+    link: "https://github.com/rhit-csse374/project-202420-s2-team03-202420",
+},
+{
+    img: "https://picsum.photos/400/?grayscale",
+    description: "A 2D video game designed in java",
+    link: "https://github.com/rhit-csse220/csse220-winter-2021-2022-final-project-w22_a_m03",
+},
 ];
 
 const contactConfig = {
     YOUR_EMAIL: "chasevill@gmail.com",
     YOUR_FONE: "(978)866-3516",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: keys.YOUR_SERVICE_ID,
     YOUR_TEMPLATE_ID: keys.YOUR_TEMPLATE_ID,
     YOUR_PUBLIC_KEY: keys.YOUR_PUBLIC_KEY,
