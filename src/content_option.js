@@ -9,7 +9,7 @@ const meta = {
 const introdata = {
     title: "I’m Chase Villeneuve",
     animated: {
-        first: "I love coding",
+        first: "I enjoy coding",
         second: "I code cool websites",
         third: "I develop mobile apps",
     },
