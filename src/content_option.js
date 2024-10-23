@@ -1,3 +1,5 @@
+const keys = require('./keys.json');
+
 const logotext = "CHASE";
 const meta = {
     title: "Chase Villeneuve",
@@ -16,8 +18,9 @@ const introdata = {
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A bit about me",
+    aboutme: `I am a senior Computer Science student at Rose-Hulman
+              Institute of Technology`,
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
@@ -123,16 +126,14 @@ const contactConfig = {
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: process.env.YOUR_SERVICE_ID,
-    YOUR_TEMPLATE_ID: process.env.YOUR_TEMPLATE_ID,
-    YOUR_USER_ID: process.env.YOUR_USER_ID,
+    YOUR_SERVICE_ID: keys.YOUR_SERVICE_ID,
+    YOUR_TEMPLATE_ID: keys.YOUR_TEMPLATE_ID,
+    YOUR_PUBLIC_KEY: keys.YOUR_PUBLIC_KEY,
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/chasevill",
+    linkedin: "https://www.linkedin.com/in/chase-villeneuve/",
 };
 export {
     meta,

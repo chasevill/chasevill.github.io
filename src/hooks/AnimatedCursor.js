@@ -139,8 +139,8 @@ function CursorCore({
     const animateOuterCursor = useCallback(
       (time) => {
         if (previousTimeRef.current !== undefined) {
-          coords.x += (endX.current - coords.x) / trailingSpeed
-          coords.y += (endY.current - coords.y) / trailingSpeed
+          coords.x = endX.current;
+          coords.y = endY.current;
           cursorOuterRef.current.style.top = `${coords.y}px`
           cursorOuterRef.current.style.left = `${coords.x}px`
         }
