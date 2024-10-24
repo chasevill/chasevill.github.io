@@ -70,10 +70,6 @@ const relatedClasses = [
         date: "2022-23"
     },
     {
-        title: "Computer Architecture II",
-        date: "2023-24"
-    },
-    {
         title: "Web Programming",
         date: "2022-23"
     },
@@ -87,6 +83,10 @@ const relatedClasses = [
     },
     {
         title: "Software Requirements Engineering",
+        date: "2023-24"
+    },
+    {
+        title: "Computer Architecture II",
         date: "2023-24"
     },
     {
