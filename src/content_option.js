@@ -51,36 +51,37 @@ const skills = [{
 },
 ];
 
-const dataportfolio = [{
-    img: "https://picsum.photos/400/?grayscale",
-    description: "A mobile app for all of ones planning needs using typescript and react native",
-    link: "https://github.com/avichaljadeja2002/omni-planner",
-},
-{
-    img: "https://picsum.photos/400/?grayscale",
-    description: "An app for managing of football statistics using mySQL and java",
-    link: "https://github.com/rhit-villencr/CS333-FSM",
-},
-{
-    img: "https://picsum.photos/400/?grayscale",
-    description: "A processor designed from the ground up with custom architecture",
-    link: "https://github.com/rhit-csse232/rhit-csse232-2223a-project-v-2223a-03",
-},
-{
-    img: "https://picsum.photos/400/?grayscale",
-    description: "A digital pantry app designed with firebase, html, js, and css",
-    link: "https://github.com/rhit-csse280/winter-2022-2023-project-repo-m4-feeleynj-villencr",
-},
-{
-    img: "https://picsum.photos/400/?grayscale",
-    description: "A custom linter for java projects capable of checking for design patterns, principles, and styles",
-    link: "https://github.com/rhit-csse374/project-202420-s2-team03-202420",
-},
-{
-    img: "https://picsum.photos/400/?grayscale",
-    description: "A 2D video game designed in java",
-    link: "https://github.com/rhit-csse220/csse220-winter-2021-2022-final-project-w22_a_m03",
-},
+const dataportfolio = [
+    {
+        img: "https://attic.sh/74x5qfk994nubp3cpn8txh3ccdgm",
+        description: "An app for managing of football statistics using mySQL and java",
+        link: "https://drive.google.com/file/d/1QzZLxS9N8vN5fkLwIAdVDuiTHkHwyj59/view?usp=sharing",
+    },
+    {
+        img: "https://attic.sh/44lj5maxmdru3i8kcegqcr2hujse",
+        description: "A processor designed from the ground up with custom architecture",
+        link: 'https://drive.google.com/file/d/1Uvb3Lyt7X6oOsoy0En4_V0r6luguiuRU/view?usp=sharing'
+    },
+    {
+        img: "https://attic.sh/kcacmlyg67ambv0xcehrb4s1tw8a",
+        description: "A digital pantry app designed with firebase, html, js, and css",
+        link: "https://youtu.be/9NvmcWHpUpw",
+    },
+    {
+        img: "https://cdn.creazilla.com/cliparts/7772530/lint-roller-clipart-xl.png",
+        description: "A custom linter for java projects capable of checking for design patterns, principles, and styles",
+        link: "https://youtu.be/I7Wsvamd1BE",
+    },
+    {
+        img: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1f794a11-0a82-49f5-9569-81d57187cfdf/dc9ia7j-bd91e86b-31c0-46f9-bfa6-2f13ee72c179.jpg/v1/fill/w_1024,h_847,q_75,strp/bomb_jack_route_combo_by_retroreloads_dc9ia7j-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODQ3IiwicGF0aCI6IlwvZlwvMWY3OTRhMTEtMGE4Mi00OWY1LTk1NjktODFkNTcxODdjZmRmXC9kYzlpYTdqLWJkOTFlODZiLTMxYzAtNDZmOS1iZmE2LTJmMTNlZTcyYzE3OS5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.K5NdVmTjIuy8BoyL_NfNVXKpikhpeOc9T2vNZ6YFxtc",
+        description: "A 2D video game designed in java",
+        link: "https://github.com/rhit-villencr/CSSE220-Final-Project",
+    }, 
+    {
+        img: "https://cdn-icons-png.flaticon.com/512/12366/12366717.png",
+        description: "A mobile app for all of ones planning needs using typescript and react native",
+        link: "https://github.com/avichaljadeja2002/omni-planner",
+    },
 ];
 
 const contactConfig = {
