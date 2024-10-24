@@ -18,9 +18,11 @@ const introdata = {
 };
 
 const dataabout = {
-    title: "A bit about me",
-    aboutme: `I am a senior Computer Science student at Rose-Hulman
-              Institute of Technology`,
+    title: "A little bit about me",
+    aboutme: `I am a senior Computer Science student at Rose-Hulman Institute of Technology
+              with a passion for software development. I have experience in full stack development,
+              mobile app development, and data science. I am always looking for new opportunities to
+              learn and grow as a developer.`,
 };
 const worktimeline = [{
     jobtitle: "Test Technician",
@@ -29,26 +31,136 @@ const worktimeline = [{
 },
 ];
 
-const skills = [{
-    name: "Python",
-    value: 80,
+const activities = [{
+    title: "Culinary Club",
+    where: "Rose-Hulman Institute of Technology",
+    date: "2024 - current",
 },
 {
-    name: "Java",
-    value: 90,
+    title: "Magic the Gathering Club",
+    where: "Rose-Hulman Institute of Technology",
+    date: "2022 - current",
 },
 {
-    name: "Javascript",
-    value: 75,
+    title: "Floor Hockey Club",
+    where: "Rose-Hulman Institute of Technology",
+    date: "2021 - current",
 },
-{
-    name: "React",
-    value: 65,
-},
-{
-    name: "Racket",
-    value: 55,
-},
+]
+
+const relatedClasses = [
+    {
+        title: "Into to Software Development",
+        date: "Winter 2021-22"
+    },
+    {
+        title: "OO Software Development",
+        date: "Winter 2021-22"
+    },
+    {
+        title: "Introduction to Systems Programming",
+        date: "Spring 2021-22"
+    },
+    {
+        title: "Data Structures and Algorithm Analysis",
+        date: "Fall 2022-23"
+    },
+    {
+        title: "Computer Architecture I",
+        date: "Fall 2022-23"
+    },
+    {
+        title: "Computer Architecture II",
+        date: "Winter 2023-24"
+    },
+    {
+        title: "Web Programming",
+        date: "Winter 2022-23"
+    },
+    {
+        title: "Operating Systems",
+        date: "Spring 2022-23"
+    },
+    {
+        title: "Database Systems",
+        date: "Spring 2022-23"
+    },
+    {
+        title: "Software Requirements Engineering",
+        date: "Fall 2023-24"
+    },
+    {
+        title: "Programming Language Concepts",
+        date: "Fall 2023-24"
+    },
+    {
+        title: "Effective Java",
+        date: "Fall 2023-24"
+    },
+    {
+        title: "Software Design",
+        date: "Winter 2023-24"
+    },
+    {
+        title: "Design and Analysis of Algorithms",
+        date: "Spring 2023-24"
+    },
+    {
+        title: "Cryptography",
+        date: "Spring 2023-24"
+    },
+    {
+        title: "Cybersecurity Seminar",
+        date: "Spring 2023-24"
+    },
+    {
+        title: "Theory of Computation",
+        date: "Spring 2023-24"
+    },
+    {
+        title: "Deep Learning",
+        date: "Fall 2024-25"
+    },
+];
+
+
+const skills = [
+    {
+        name: "Java",
+        value: 90,
+    },
+    {
+        name: "Python",
+        value: 80,
+    },
+    {
+        name: "Javascript",
+        value: 75,
+    },
+    {
+        name: "HTML",
+        value: 75,
+    },
+    {
+        name: "C",
+        value: 70,
+    },
+    {
+        name: "CSS",
+        value: 65,
+    },
+    {
+        name: "React",
+        value: 65,
+    },
+    {
+        name: "Racket",
+        value: 55,
+    },
+    {
+        name: "Verilog",
+        value: 40,
+    },
 ];
 
 const dataportfolio = [
@@ -76,7 +188,7 @@ const dataportfolio = [
         img: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1f794a11-0a82-49f5-9569-81d57187cfdf/dc9ia7j-bd91e86b-31c0-46f9-bfa6-2f13ee72c179.jpg/v1/fill/w_1024,h_847,q_75,strp/bomb_jack_route_combo_by_retroreloads_dc9ia7j-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODQ3IiwicGF0aCI6IlwvZlwvMWY3OTRhMTEtMGE4Mi00OWY1LTk1NjktODFkNTcxODdjZmRmXC9kYzlpYTdqLWJkOTFlODZiLTMxYzAtNDZmOS1iZmE2LTJmMTNlZTcyYzE3OS5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.K5NdVmTjIuy8BoyL_NfNVXKpikhpeOc9T2vNZ6YFxtc",
         description: "A 2D video game designed in java",
         link: "https://github.com/rhit-villencr/CSSE220-Final-Project",
-    }, 
+    },
     {
         img: "https://cdn-icons-png.flaticon.com/512/12366/12366717.png",
         description: "A mobile app for all of ones planning needs using typescript and react native",
@@ -102,6 +214,8 @@ export {
     dataabout,
     dataportfolio,
     worktimeline,
+    activities,
+    relatedClasses,
     skills,
     introdata,
     contactConfig,

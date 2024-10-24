@@ -6,7 +6,9 @@ import {
   dataabout,
   meta,
   worktimeline,
+  activities,
   skills,
+  relatedClasses,
 } from "../../content_option";
 
 export const About = () => {
@@ -76,6 +78,46 @@ export const About = () => {
                 </div>
               );
             })}
+          </Col>
+        </Row>
+        <Row className=" sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">Activities</h3>
+          </Col>
+          <Col lg="7">
+            <table className="table caption-top">
+              <tbody>
+                {activities.map((data, i) => {
+                  return (
+                    <tr key={i}>
+                      <th scope="row">{data.title}</th>
+                      <td>{data.where}</td>
+                      <td>{data.date}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </Col>
+        </Row>
+        <Row className=" sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">Related Classes</h3>
+          </Col>
+          <Col lg="7">
+            <table className="table caption-top">
+              <tbody>
+                {relatedClasses.map((data, i) => {
+                  return (
+                    <tr key={i}>
+                      <th scope="row">{data.title}</th>
+                      <td></td>
+                      <td>{data.date}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
           </Col>
         </Row>
       </Container>
