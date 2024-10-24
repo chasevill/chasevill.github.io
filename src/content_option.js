@@ -51,75 +51,75 @@ const activities = [{
 const relatedClasses = [
     {
         title: "Into to Software Development",
-        date: "Winter 2021-22"
+        date: "2021-22"
     },
     {
         title: "OO Software Development",
-        date: "Winter 2021-22"
+        date: "2021-22"
     },
     {
         title: "Introduction to Systems Programming",
-        date: "Spring 2021-22"
+        date: "2021-22"
     },
     {
         title: "Data Structures and Algorithm Analysis",
-        date: "Fall 2022-23"
+        date: "2022-23"
     },
     {
         title: "Computer Architecture I",
-        date: "Fall 2022-23"
+        date: "2022-23"
     },
     {
         title: "Computer Architecture II",
-        date: "Winter 2023-24"
+        date: "2023-24"
     },
     {
         title: "Web Programming",
-        date: "Winter 2022-23"
+        date: "2022-23"
     },
     {
         title: "Operating Systems",
-        date: "Spring 2022-23"
+        date: "2022-23"
     },
     {
         title: "Database Systems",
-        date: "Spring 2022-23"
+        date: "2022-23"
     },
     {
         title: "Software Requirements Engineering",
-        date: "Fall 2023-24"
+        date: "2023-24"
     },
     {
         title: "Programming Language Concepts",
-        date: "Fall 2023-24"
+        date: "2023-24"
     },
     {
         title: "Effective Java",
-        date: "Fall 2023-24"
+        date: "2023-24"
     },
     {
         title: "Software Design",
-        date: "Winter 2023-24"
+        date: "2023-24"
     },
     {
         title: "Design and Analysis of Algorithms",
-        date: "Spring 2023-24"
+        date: "2023-24"
     },
     {
         title: "Cryptography",
-        date: "Spring 2023-24"
+        date: "2023-24"
     },
     {
         title: "Cybersecurity Seminar",
-        date: "Spring 2023-24"
+        date: "2023-24"
     },
     {
         title: "Theory of Computation",
-        date: "Spring 2023-24"
+        date: "2023-24"
     },
     {
         title: "Deep Learning",
-        date: "Fall 2024-25"
+        date: "2024-25"
     },
 ];
 
